@@ -13,6 +13,7 @@
             @click="openPreview(boat)"
           >
           <q-card-section>
+          gg
             <div class="text-h6">{{ boat.名前 }}</div>
             <div class="text-subtitle2">{{ boat.用途 }}</div>
           </q-card-section>
