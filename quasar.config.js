@@ -59,7 +59,14 @@ module.exports = configure(function (/* ctx */) {
       // minify: false,
       // polyfillModulePreload: true,
       // distDir
-      distDir: 'dist/spa',
+      publicPath: 'test',
+
+      /*
+      extendViteConf (viteConf) {
+        viteConf.build = mergeConfig(viteConf.build, {
+          base: '/test/'
+        })
+      */
       // extendViteConf (viteConf) {},
       // viteVuePluginOptions: {},
 
