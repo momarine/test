@@ -11,6 +11,12 @@
       class="q-pa-md"
       style="width: 400px;"
     >
+      <div>
+        <router-link
+          class="q-pa-md text-h6"
+          to="/momarine"
+        >新しいmomarineページへ</router-link>
+      </div>
       <q-carousel
         animated
         v-model="slide"
