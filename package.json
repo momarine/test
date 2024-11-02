@@ -9,7 +9,8 @@
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "build": "quasar build",
+    "deploy": "push-dir --dir=dist/spa --remote=gh-pages --branch=master"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.12",
@@ -27,7 +28,6 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^9.0.0",
     "postcss": "^8.4.14",
-    "quasar-app-extension-gh-pages-auto-deploy": "^0.4.0",
     "vite-plugin-checker": "^0.8.0"
   },
   "engines": {
